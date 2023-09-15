@@ -1,5 +1,6 @@
 
 import { FaBookmark,FaDollarSign } from 'react-icons/fa';
+import { ToastContainer } from 'react-toastify';
 const Course = ({course,handelTitle}) => {
     // console.log(course);
    const{img,credit,price, title,id,dics
@@ -24,7 +25,7 @@ const Course = ({course,handelTitle}) => {
 </div>
 
   </div>
-       <button onClick={()=>handelTitle(course,credit)} className="btn btn-primary w-full">Select</button>
+       <button onClick={()=>handelTitle(course,credit)} className="btn btn-primary w-full">Select</button> <ToastContainer/>
   </div>
 </div>
         

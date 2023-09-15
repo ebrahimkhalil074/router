@@ -1,4 +1,6 @@
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react'
 import './App.css'
 import Cards from './components/Cards'
@@ -13,8 +15,11 @@ function App() {
   const handelTitle =(course,credit)=>{
   const isExist =titles.find((item)=> item.id===course.id)
 if (isExist) {
-  return alert('tui acos')
-} else {
+  return (toast.warning('Warning Notification !', {
+    position: toast.POSITION.TOP_LEFT
+  }))
+
+}else{
   const newTitle=[...titles,course]
   setTitles(newTitle) 
 }
@@ -24,7 +29,11 @@ setCredit(newHour)
 
 const nuwremening = remeningo -newHour
 setRemening(nuwremening)
-}
+ }else{
+   return toast.warning('Warning Notification !', {
+    position: toast.POSITION.TOP_LEFT
+  });
+ }
 
 } 
 
