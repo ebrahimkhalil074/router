@@ -9,7 +9,7 @@ fetch("data.json")
 .then(data => setCourses(data))
 },[])
     return (
-        <div className="w-2/3  bg-slate-100 grid md:grid-cols-2  lg:grid-cols-3 gap-2">
+        <div className="w-2/3  bg-gray-300 grid md:grid-cols-2  lg:grid-cols-3 gap-2 rounded-xl">
          {
             courses.map((course,idx)=><Course key={idx} course={course} handelTitle={handelTitle}></Course>)
          }   

@@ -5,7 +5,7 @@
         "title": "Introduction to C Programming",
         "dics": "It is a long established fact that a will be render distracted by the readable content of a page when looking at its layout.",
         "price": 15000,
-        "credit": " 1"
+        "credit": 1
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "title": "Introduction to Algorithms",
         "dics": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price":  25000,
-        "credit": "2"
+        "credit": 2
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "title": "Introduction to C++ for DSA",
         "dics":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": 39.99,
-        "credit": "10"
+        "credit": 10
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "title": "Basic Data Structures",
         "dics": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": 35000,
-        "credit": "5"
+        "credit": 5
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "title": "Introduction to OOP Python",
         "dics": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price":  19000,
-        "credit": "5"
+        "credit": 5
        
     },
     {
@@ -46,7 +46,7 @@
         "title": "Software Engineering",
         "dics":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": 23000,
-        "credit": "2"
+        "credit": 2
     },
     {
         "id": 7,
@@ -54,7 +54,7 @@
         "title": "AWS, Cloud Computing",
         "dics": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price":  35000,
-        "credit": "5"
+        "credit": 5
     },
     {
         "id": 8,
@@ -62,7 +62,7 @@
         "title": "Database (MySQL)",
         "dics":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price":  19000,
-        "credit": " 5"
+        "credit":  5
     },
     {
         "id": 9,
@@ -70,7 +70,7 @@
         "title": "Problem-Solving Part",
         "dics": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": 23000 ,
-        "credit": " 2"
+        "credit":  2
     }
     
 ]

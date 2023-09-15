@@ -24,7 +24,7 @@ const Course = ({course,handelTitle}) => {
 </div>
 
   </div>
-       <button onClick={()=>handelTitle(course)} className="btn btn-primary w-full">Buy Now</button>
+       <button onClick={()=>handelTitle(course,credit)} className="btn btn-primary w-full">Buy Now</button>
   </div>
 </div>
         
