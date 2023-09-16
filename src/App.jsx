@@ -10,7 +10,7 @@ import Heder from './components/heder'
 function App() {
   const [titles,setTitles]=useState([])
   const [hour,setCredit] = useState(0)
-  const [remening,setRemening] = useState(0)
+  const [remening,setRemening] = useState(20)
  let remeningo =20
   const handelTitle =(course,credit)=>{
   const isExist =titles.find((item)=> item.id===course.id)
@@ -31,7 +31,7 @@ const nuwremening = remeningo -newHour
 setRemening(nuwremening)
  }else{
    return toast.warning('Warning Notification !', {
-    position: toast.POSITION.TOP_LEFT
+    position: toast.POSITION.TOP_RIGHT
   });
  }
 
